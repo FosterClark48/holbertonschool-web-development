@@ -73,6 +73,7 @@ Before starting the implementation of the Style:
 ### [2. Banner](./styles.css)
 Based on the `Figma` file, add the correct styling to the `header` and first `section` of the page
 ![image](https://github.com/FosterClark48/holbertonschool-web-development/assets/105602291/26e23eeb-1c84-4e24-a77b-ef8a88ef2737)
+
 **Reminders:**
   - All colors values, width, height and images are part of the Figma
   - Keep your CSS simple and clean - use as simple as you can CSS selectors
@@ -83,6 +84,7 @@ Based on the `Figma` file, add the correct styling to the `header` and first `se
 ### [3. Quotes](./styles.css)
 Based on the `Figma` file, add the correct styling to the quote `section`
 ![image](https://github.com/FosterClark48/holbertonschool-web-development/assets/105602291/3a5d92a7-03a4-467f-9715-d1b987097f40)
+
 **Tips:**
   - You can start to see similar or common style, time to start to centralize your style and CSS selectors
 
