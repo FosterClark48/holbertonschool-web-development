@@ -9,7 +9,6 @@
 ---
 
 ![image](https://github.com/FosterClark48/holbertonschool-web-development/assets/105602291/e8a269aa-8a1c-4881-9272-bac570024e81)
-![image](https://github.com/FosterClark48/holbertonschool-web-development/assets/105602291/e8476ba3-a943-4fb5-ba81-3b4417973d5e)
 
 ## Resources:books:
 Read or watch:
