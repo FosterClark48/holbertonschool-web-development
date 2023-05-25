@@ -24,6 +24,29 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+/* HEADER SECTION */
+
+.headerdiv {
+    background-color: transparent;
+    opacity: 90%;
+    display: flex;
+    justify-content: space-around;
+    padding: 2.19rem 10.31rem 2.19rem 10.75rem;
+}
+
+.headernav {
+    background-color: transparent;
+    opacity: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.headernavitems {
+    padding: 0px 20px;
+    text-decoration: none;
+    color: white;
+}
+
 .imageback {
     background: url('images/background.png');
     background-size: cover;
