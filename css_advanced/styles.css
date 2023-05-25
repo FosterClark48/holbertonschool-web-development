@@ -60,15 +60,17 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     height: 100vh;
+    left: 0px;
+    top: 0px;
 }
 
 /* PRESENTATION SECTION: TITLE AND REGISTER */
 
-.bannersection {
+/* .bannersection {
     background-image: linear-gradient(to top, #071629, transparent);
     background-size: 100% 100vh;
-    /* background-position: top; */
-}
+    background-position: top;
+} */
 
 .bannersectiondiv {
     height: 400px;
@@ -80,9 +82,22 @@ body {
 }
 
 .principaltext {
-    font-size: 7.5rem;
-    margin: 0px;
-    color: white;
+    position: absolute;
+    height: 151px;
+    left: 26.18%;
+    right: 26.32%;
+    top: calc(50% - 151px/2 - 251px);
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 151px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
 }
 
 .registerbutton {
@@ -284,10 +299,27 @@ body {
     height: 20px;
 }
 
-.containervideoimage {
+.videotime {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    color: #C271FF;
+    font-size: 14px;
+}
+
+.containervideodiagonalimage {
     width: 260px;
     height: 140px;
-    background-image: url('images/DiagonalSmile.jpeg');
+    background-image: url('images/DiagonalSmile.png');
+    border-radius: 5px 5px 0px 0px;
+    background-size: cover;
+    background-position: center;
+}
+
+.containervideosadimage {
+    width: 260px;
+    height: 140px;
+    background-image: url('images/Sad_Smile.png');
+    border-radius: 5px 5px 0px 0px;
     background-size: cover;
     background-position: center;
 }
