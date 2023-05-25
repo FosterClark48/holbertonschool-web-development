@@ -19,6 +19,13 @@
     font-style: italic;
 }
 
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('fonts/SourceSansPro-ExtraLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -52,5 +59,373 @@ body {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* PRESENTATION SECTION: TITLE AND REGISTER */
+
+.bannersection {
+    background-image: linear-gradient(to top, #071629, transparent);
+    background-size: 100% 100vh;
+    /* background-position: top; */
+}
+
+.bannersectiondiv {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principaltext {
+    font-size: 7.5rem;
+    margin: 0px;
+    color: white;
+}
+
+.registerbutton {
+    font-size: .88rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 1.38rem;
+    border-color: transparent;
+    box-shadow: 4px 4px 8px rgb(0, 0, 0, 0.2);
+    width: 10.13rem;
+    height: 2.75rem;
+    background-color: #C271FF;
+    color: white;
+}
+
+.principalwords {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: .63rem 2.5rem 3rem 2.5rem;
+    color: white;
+    margin: 0rem;
+    font-size: .88rem;
+}
+
+/*PRESENTATION SECTION: AUTHORS*/
+
+.sectitle {
+    display: flex;
+    text-indent: 10px;
+    justify-content: center;
+    color: white;
+}
+
+.sectitlep {
+    color: #C271FF;
+}
+
+.sectitletext {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100;
+
+}
+
+.authordiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.authorbox {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.authoritem {
+    height:220px;
+    width: 140px;
+    padding: 40px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.authorname {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: normal;
+    font-weight: bold;
+    color: white;
+}
+
+.authorphoto {
+    width:110px;
+    height:110px;
+    border-radius:55px;
+}
+
+.authortext {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+    margin: 0px;
+    color: white;
+}
+
+/* SECTION TWO "QUOTE"*/
+
+
+.quotesection {
+    background-color: #C271FF;
+    padding: 60px 0px;
+}
+
+.quotediv {
+    display: flex;
+    justify-content: center;
+}
+
+.quotetext {
+    color: white;
+    padding-left: 40px;
+    width: 600px;
+}
+
+.parquote {
+    margin: 0px 0px 40px 0px;
+    font-family: 'Sans Source Pro', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.subtitlequote {
+    font-family: 'Sans Source Pro', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin: 0px;
+}
+
+.namequote {
+    margin: 5px 0px;
+    font-family: 'Sans Source Pro', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+}
+
+/* SECTION OF VIDEOS*/
+
+.videosection {
+    background-color: white;
+}
+
+.titlevideosection {
+    padding: 40px 0px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+}
+
+.videosectioncolor {
+    color: #C271FF;
+}
+
+.videosectionpoints {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.videoimage {
+    width: 60px;
+    height: 60px;
+    padding: 40px 90px 20px 90px;
+
+}
+
+.videosectionuniquepoints {
+    width: 240px;
+    height: 340px;
+}
+
+.titlevideouniquepoints {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.textvideouniquepoints {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: gray;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.authorvideosectionimage {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+
+.videoauthorsec {
+    display: flex;
+    align-items: center;
+}
+
+.authornamevideosec {
+    color: #C271FF;
+    font-size: 16px;
+}
+
+.valuevideosection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.stars {
+    width: 20px;
+    height: 20px;
+}
+
+.containervideoimage {
+    width: 260px;
+    height: 140px;
+    background-image: url('images/DiagonalSmile.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*MEMBERSHIP SECTION */
+
+.membershipsection {
     background-color: #071629;
+}
+
+.titlemember {
+    padding: 60px;
+    color: white;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+}
+
+.titlememberpro {
+    color: #C271FF;
+}
+
+.membershipoptions {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.faceimage {
+    width: 50px;
+    padding: 0px 75px 0px 75px;
+}
+
+.divface {
+    width: 200px;
+    height: 200px;
+}
+
+.titleface {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.textface {
+    color: white;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.buttonmembership {
+    font-size: 1.05rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    border-radius: 1.38rem;
+    border-color: transparent;
+    box-shadow: 4px 4px 8px rgb(0, 0, 0, 0.2);
+    width: 10.13rem;
+    height: 2.75rem;
+    background-color: #C271FF;
+    color: white;
+}
+
+.divbuttonmembership {
+    padding: 15px 0px 50px 0px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+}
+
+/* FAQ SECTION */
+
+.faqsection {
+    background-color: white;
+}
+
+.titlefaq {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+    padding-top: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.subfaqsection {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.twofaqsec {
+    height: 600px;
+    width: 350px;
+}
+
+.titlefaqquestion {
+    font-size: 20px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.textfaqquestion {
+    color: gray;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* FOOTER SECTION */
+
+footer {
+    background-color: #071629;
+}
+
+.imagesfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: last baseline;
+}
+
+.textfooter {
+    color: gray;
+    margin: 0px;
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+    font-size: 12px;
+}
+
+.mediafooter {
+    width: 40px;
+    height: 40px;
+    padding-left: 15px;
+}
+
+.logofooter {
+    display: flex;
+    margin-left: 80px;
+}
+
+.mediadivfooter {
+    margin-right: 200px;
 }
